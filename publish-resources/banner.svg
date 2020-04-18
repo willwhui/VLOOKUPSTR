@@ -1,0 +1,25 @@
+<svg width="220" height="140" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <defs>
+  <filter id="svg_3_blur" x="-50%" y="-50%" width="200%" height="200%">
+   <feGaussianBlur stdDeviation="3"/>
+  </filter>
+  <filter id="svg_8_blur">
+   <feGaussianBlur stdDeviation="1" in="SourceGraphic"/>
+  </filter>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="222" height="142" id="canvas_background" fill="#fff"/>
+  <g id="canvasGrid" display="none">
+   <rect id="svg_4" width="100%" height="100%" x="0" y="0" stroke-width="0" fill="url(#gridpattern)"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <text fill="#5fbf00" stroke="#000" stroke-width="0" x="23.976563" y="106" id="svg_2" font-size="120" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">V</text>
+  <text fill="#000000" stroke="#000" stroke-width="0" x="14.984375" y="108" id="svg_3" font-size="120" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve" opacity="0.5" filter="url(#svg_3_blur)">V</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_5" y="106.185891" x="88.854454" stroke-width="0" stroke="#000" fill="#5fbf00">LookupStr</text>
+  <text filter="url(#svg_8_blur)" opacity="0.5" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_8" y="106.875419" x="86.785868" stroke-width="0" stroke="#000" fill="#000000">LookupStr</text>
+ </g>
+</svg>
