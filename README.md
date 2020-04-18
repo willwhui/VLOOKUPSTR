@@ -14,8 +14,8 @@ VLOOKUPSTR(search_key, range, index, case_insensitive)
 This function acts like the build-in function VLOOKUP. But it performs a non-full-match string searching, which can not be done by VLOOKUP.
 
 Example:
-=VLOOKUPSTR(A1, A2:B26, 2, FALSE)
-To Check for the string of the  cell A1 in the column A from A2:B26, if any cell contains ( not equal to) the string, for example, A1= "File" and A6="File Menu", then the function returns the cell value of B6 in this example.
+=VLOOKUPSTR(A1, A2:B7, 2, FALSE)
+To Check for the string of the  cell A1 in the column A from A2:B7, if any cell contains ( not equal to) the string, for example, A1= "File" and A6="File Menu", then the function returns the cell value of B6 in this example.
 
 And the differences are: 
 1. as above, if the search_key is the substring of the cell in the first column, then the function will return as found. 
